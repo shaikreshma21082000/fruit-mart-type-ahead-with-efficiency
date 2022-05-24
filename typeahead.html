@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Mart</title>
+</head>
+<body>
+    <h1>Fruit Mart</h1>
+    <input type="text" id="query">
+    <div style="display: flex; flex-direction: row;">
+        <div style="padding: 30px">
+            <h3>Vanilla Suggestions <span id="vanillaJSFilterCount"></span></h3>
+            <ul id="vanillaSuggestions"></ul>
+        </div>
+        <div style="padding: 30px;">
+            <h3>RxJS Suggestions <span id="rxJSFilterCount"></span></h3>
+            <ul id="rxjsSuggestions"></ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.0/rxjs.umd.min.js"></script>
+    <script type="module" src="script.js"> </script>
+</body>
+</html>
